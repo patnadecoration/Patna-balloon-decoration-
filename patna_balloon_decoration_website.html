@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patna Balloon Decoration - Turning Special Moments Into Beautiful Memories</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind Configuration for Soft Pastel Luxury Theme -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        pastel: {
+                            pink: '#FFF0F5',
+                            pinkDark: '#F7D6E0',
+                            lavender: '#F3E5F5',
+                            lavenderDark: '#E1BEE7',
+                            cream: '#FFFDF7',
+                            champagne: '#FAF3E0',
+                            champagneGold: '#E6C280',
+                            mint: '#E8F5E9',
+                            blue: '#E3F2FD',
+                            rose: '#FCE4EC'
+                        },
+                        charcoal: '#2B2B2B',
+                        headingColor: '#1A1A1A',
+                        brandGold: '#C69214',
+                        brandGoldHover: '#B28210'
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    boxShadow: {
+                        'soft': '0 10px 30px -10px rgba(230, 194, 128, 0.25)',
+                        'glow': '0 0 25px rgba(247, 214, 224, 0.6)',
+                        'card': '0 8px 25px rgba(0,0,0,0.03)',
+                        'hover': '0 15px 35px rgba(198, 146, 20, 0.15)'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #FFFDF7;
+            color: #2B2B2B;
+            overflow-x: hidden;
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #FFFDF7 0%, #FFF0F5 50%, #FAF3E0 100%);
+        }
+
+        .pastel-glass {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(230, 194, 128, 0.3);
+        }
+
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #B8860B 0%, #D4AF37 50%, #996515 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .gold-button {
+            background: linear-gradient(135deg, #E6C280 0%, #C69214 100%);
+            color: #FFFFFF;
+            transition: all 0.3s ease;
+        }
+
+        .gold-button:hover {
+            background: linear-gradient(135deg, #C69214 0%, #A3750C 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(198, 146, 20, 0.3);
+        }
+
+        /* Floating Balloon Keyframes */
+        @keyframes floatSlow {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-15px) rotate(3deg); }
+        }
+        @keyframes floatMedium {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-22px) rotate(-4deg); }
+        }
+        .animate-float-slow { animation: floatSlow 6s ease-in-out infinite; }
+        .animate-float-medium { animation: floatMedium 8s ease-in-out infinite; }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #FFFDF7;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #E6C280;
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #C69214;
+        }
+
+        .img-zoom-container {
+            overflow: hidden;
+        }
+        .img-zoom-container img {
+            transition: transform 0.5s ease;
+        }
+        .img-zoom-container:hover img {
+            transform: scale(1.08);
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-pastel-pinkDark selection:text-charcoal">
+
+    <!-- TOP ANNOUNCEMENT BAR -->
+    <div class="bg-gradient-to-r from-pastel-pink via-pastel-champagne to-pastel-lavender text-charcoal text-xs sm:text-sm py-2 px-4 border-b border-pastel-champagneGold/30">
+        <div class="max-w-7xl mx-auto flex justify-between items-center flex-wrap gap-2">
+            <div class="flex items-center space-x-4">
+                <span class="flex items-center gap-1 font-semibold text-brandGold"><i class="fa-solid fa-location-dot"></i> Patna, Bihar</span>
+                <span class="hidden md:inline text-gray-600">| Premium Balloon & Event Decorators</span>
+            </div>
+            <div class="flex items-center space-x-4 font-medium">
+                <a href="tel:9523051895" class="hover:text-brandGold transition flex items-center gap-1"><i class="fa-solid fa-phone text-xs"></i> 9523051895</a>
+                <span class="text-gray-300">|</span>
+                <a href="https://wa.me/919523051895" target="_blank" class="hover:text-emerald-600 transition flex items-center gap-1"><i class="fa-brands fa-whatsapp text-xs text-emerald-600"></i> WhatsApp Us</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN STICKY NAVIGATION BAR -->
+    <header class="sticky top-0 z-40 pastel-glass shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- LOGO -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-pastel-pinkDark via-pastel-champagneGold to-pastel-lavenderDark flex items-center justify-center text-2xl shadow-inner group-hover:rotate-12 transition-transform duration-300">
+                        🎈
+                    </div>
+                    <div>
+                        <span class="font-serif font-bold text-xl sm:text-2xl text-headingColor tracking-tight block">PATNA BALLOON</span>
+                        <span class="text-[10px] uppercase tracking-widest text-brandGold font-semibold block -mt-1">Decoration</span>
+                    </div>
+                </a>
+
+                <!-- DESKTOP NAVIGATION LINKS -->
+                <nav class="hidden lg:flex items-center space-x-7 font-medium text-sm text-charcoal">
+                    <a href="#home" class="hover:text-brandGold transition py-1 border-b-2 border-transparent hover:border-brandGold">Home</a>
+                    <a href="#services" class="hover:text-brandGold transition py-1 border-b-2 border-transparent hover:border-brandGold">Services</a>
+                    <a href="#themes" class="hover:text-brandGold transition py-1 border-b-2 border-transparent hover:border-brandGold">Themes</a>
+                    <a href="#customization" class="hover:text-brandGold transition py-1 border-b-2 border-transparent hover:border-brandGold">Customization</a>
+                    <a href="#gallery" class="hover:text-brandGold transition py-1 border-b-2 border-transparent hover:border-brandGold">Gallery</a>
+                    <a href="#about" class="hover:text-brandGold transition py-1 border-b-2 border-transparent hover:border-brandGold">About Us</a>
+                    <a href="#areas" class="hover:text-brandGold transition py-1 border-b-2 border-transparent hover:border-brandGold">Service Areas</a>
+                    <a href="#contact" class="hover:text-brandGold transition py-1 border-b-2 border-transparent hover:border-brandGold">Contact</a>
+                </nav>
+
+                <!-- HEADER CTA -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <button onclick="openBookingModal('General Enquiry')" class="gold-button font-semibold px-5 py-2.5 rounded-full text-sm shadow-md flex items-center gap-2">
+                        <i class="fa-regular fa-calendar-check"></i> Book Decoration
+                    </button>
+                </div>
+
+                <!-- MOBILE HAMBURGER BUTTON -->
+                <button id="mobileMenuBtn" class="lg:hidden p-2 rounded-xl text-charcoal hover:bg-pastel-pink/50 focus:outline-none">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- MOBILE MENU DROPDOWN -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-pastel-cream/95 backdrop-blur-md border-b border-pastel-champagneGold/30 px-6 py-5 transition-all">
+            <div class="flex flex-col space-y-4 font-medium text-charcoal">
+                <a href="#home" class="mobile-nav-link hover:text-brandGold">Home</a>
+                <a href="#services" class="mobile-nav-link hover:text-brandGold">Services</a>
+                <a href="#themes" class="mobile-nav-link hover:text-brandGold">Themes</a>
+                <a href="#customization" class="mobile-nav-link hover:text-brandGold">Customization</a>
+                <a href="#gallery" class="mobile-nav-link hover:text-brandGold">Gallery</a>
+                <a href="#about" class="mobile-nav-link hover:text-brandGold">About Us</a>
+                <a href="#areas" class="mobile-nav-link hover:text-brandGold">Service Areas</a>
+                <a href="#contact" class="mobile-nav-link hover:text-brandGold">Contact</a>
+                <button onclick="openBookingModal('Mobile Menu')" class="gold-button font-semibold w-full py-3 rounded-full text-center shadow-md mt-2">
+                    <i class="fa-regular fa-calendar-check"></i> Book Your Decoration
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- FLOATING QUICK ACTIONS -->
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+        <a href="https://wa.me/919523051895?text=Hello%20Patna%20Balloon%20Decoration,%20I%20want%20to%20enquire%20about%20event%20decoration." target="_blank" class="w-14 h-14 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full flex items-center justify-center shadow-xl hover:scale-110 transition-all duration-300 group" title="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp text-3xl"></i>
+            <span class="absolute right-16 bg-white text-gray-800 text-xs font-semibold px-3 py-1.5 rounded-lg shadow-md whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">WhatsApp 9523051895</span>
+        </a>
+        <a href="tel:9523051895" class="w-14 h-14 bg-brandGold hover:bg-brandGoldHover text-white rounded-full flex items-center justify-center shadow-xl hover:scale-110 transition-all duration-300 group" title="Call Now">
+            <i class="fa-solid fa-phone text-2xl"></i>
+            <span class="absolute right-16 bg-white text-gray-800 text-xs font-semibold px-3 py-1.5 rounded-lg shadow-md whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">Call 9523051895</span>
+        </a>
+    </div>
+
+    <!-- 2. HERO SECTION -->
+    <section id="home" class="relative hero-gradient overflow-hidden py-16 lg:py-24 border-b border-pastel-pinkDark/30">
+        <!-- Background Decorative SVG Balloons -->
+        <div class="absolute top-10 left-5 w-20 h-20 bg-pastel-pinkDark/40 rounded-full blur-xl animate-float-slow pointer-events-none"></div>
+        <div class="absolute bottom-10 right-10 w-32 h-32 bg-pastel-lavenderDark/40 rounded-full blur-2xl animate-float-medium pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <!-- Left Content Column -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 bg-pastel-champagne border border-pastel-champagneGold/50 px-4 py-2 rounded-full shadow-sm text-xs sm:text-sm font-medium text-brandGold">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                        Patna's #1 Rated Event Decorator
+                    </div>
+                    <h1 class="font-serif text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-headingColor leading-tight">
+                        Beautiful Decorations. <br>
+                        <span class="gold-gradient-text italic font-normal">Unforgettable</span> Celebrations.
+                    </h1>
+                    <p class="text-charcoal/80 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                        <strong class="font-semibold text-headingColor">Patna Balloon Decoration</strong> turns your special moments into beautiful memories. Custom balloon backdrops, grand arches, theme birthday setups, romantic surprises, and wedding setups across all locations in Patna.
+                    </p>
+
+                    <!-- CTAs -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="#services" class="w-full sm:w-auto gold-button px-8 py-4 rounded-full font-bold text-center text-base shadow-lg hover:shadow-xl transition">
+                            Explore Services <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+                        </a>
+                        <button onclick="openBookingModal('Hero Section')" class="w-full sm:w-auto bg-white hover:bg-pastel-pink text-charcoal border border-pastel-champagneGold font-bold px-8 py-4 rounded-full text-center text-base shadow-sm hover:shadow transition">
+                            <i class="fa-solid fa-wand-magic-sparkles text-brandGold mr-2"></i> Book Decoration Now
+                        </button>
+                    </div>
+
+                    <!-- Trust Highlights -->
+                    <div class="pt-8 border-t border-pastel-champagneGold/30 grid grid-cols-3 gap-4 text-center">
+                        <div class="p-2">
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-brandGold">1000+</p>
+                            <p class="text-xs text-charcoal/70 font-medium">Events Decorated</p>
+                        </div>
+                        <div class="p-2">
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-brandGold">4.9 ★</p>
+                            <p class="text-xs text-charcoal/70 font-medium">Google Rating</p>
+                        </div>
+                        <div class="p-2">
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-brandGold">100%</p>
+                            <p class="text-xs text-charcoal/70 font-medium">On-Time Setup</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Hero Image Stack Showcase -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <!-- Main Featured Card using Image BALLON.jpg -->
+                        <div class="rounded-3xl p-3 bg-white border border-pastel-champagneGold/40 shadow-2xl relative z-10 transform hover:-rotate-1 transition duration-500">
+                            <div class="rounded-2xl overflow-hidden aspect-[4/3] relative">
+                                <img src="BALLON.jpg" alt="Boss Baby Custom Birthday Backdrop Patna" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/600x450/FFF0F5/2B2B2B?text=Boss+Baby+Theme+Patna'">
+                                <div class="absolute bottom-3 left-3 right-3 bg-white/90 backdrop-blur-md p-3 rounded-xl border border-pastel-champagneGold/30 flex justify-between items-center">
+                                    <div>
+                                        <p class="text-xs font-bold text-headingColor">Boss Baby Theme Birthday</p>
+                                        <p class="text-[10px] text-gray-500"><i class="fa-solid fa-location-dot text-brandGold"></i> Rajeev Nagar, Patna</p>
+                                    </div>
+                                    <span class="text-xs bg-pastel-pink text-pink-700 px-2.5 py-1 rounded-full font-semibold">Custom Setup</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Secondary Overlapping Floating Photo BALLON 3.webp -->
+                        <div class="absolute -bottom-8 -left-8 w-1/2 rounded-2xl p-2 bg-white border border-pastel-champagneGold/40 shadow-xl z-20 hidden sm:block animate-float-slow">
+                            <div class="rounded-xl overflow-hidden aspect-square">
+                                <img src="BALLON 3.webp" alt="Gold Ring Arch Neon Birthday Setup Patna" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/300x300/FAF3E0/2B2B2B?text=Ring+Arch+Patna'">
+                            </div>
+                            <p class="text-[10px] font-bold text-center mt-1 text-charcoal">Black & Gold Ring Arch</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. OUR SERVICES -->
+    <section id="services" class="py-20 bg-pastel-cream">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+                <span class="text-brandGold font-semibold text-xs tracking-widest uppercase bg-pastel-champagne px-3.5 py-1.5 rounded-full border border-pastel-champagneGold/30">What We Offer</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-headingColor">Decorations Tailored For Every Celebration</h2>
+                <p class="text-charcoal/70 text-sm sm:text-base">From intimate room setups to grand banquet halls across Patna, we bring your vision to life with vibrant pastel balloon styling.</p>
+            </div>
+
+            <!-- 6 Services Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Service 1: Birthday Decoration -->
+                <div class="bg-white rounded-2xl p-6 border border-pastel-champagneGold/30 shadow-card hover:shadow-hover transition duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-pastel-pink flex items-center justify-center text-2xl text-pink-600 mb-6 group-hover:scale-110 transition-transform">
+                            🎂
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-headingColor mb-3">Birthday Decoration</h3>
+                        <p class="text-charcoal/70 text-sm mb-4">Complete balloon arrangements for kids, teens, and adult milestone birthdays.</p>
+                        <ul class="space-y-2 text-xs text-charcoal/80 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Theme Backdrops & Cutouts</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Foil & Metallic Balloon Arches</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> LED Happy Birthday Neon Lights</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Cake Table Decoration</li>
+                        </ul>
+                    </div>
+                    <button onclick="openBookingModal('Birthday Decoration')" class="w-full py-2.5 rounded-xl bg-pastel-pink hover:bg-pastel-pinkDark font-semibold text-xs text-headingColor transition flex justify-between items-center px-4">
+                        <span>Book Birthday Setup</span> <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </button>
+                </div>
+
+                <!-- Service 2: Anniversary & Romantic Decoration -->
+                <div class="bg-white rounded-2xl p-6 border border-pastel-champagneGold/30 shadow-card hover:shadow-hover transition duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-pastel-rose flex items-center justify-center text-2xl text-rose-600 mb-6 group-hover:scale-110 transition-transform">
+                            💖
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-headingColor mb-3">Anniversary & Romantic</h3>
+                        <p class="text-charcoal/70 text-sm mb-4">Dreamy room surprises, candle-light setups, and romantic anniversary balloon styling.</p>
+                        <ul class="space-y-2 text-xs text-charcoal/80 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Heart Foil Balloons & Rose Petals</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Ambient Fairy Lights & Canopy</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Proposal & Marry Me Setups</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Hotel Room & Home Surprises</li>
+                        </ul>
+                    </div>
+                    <button onclick="openBookingModal('Anniversary Decoration')" class="w-full py-2.5 rounded-xl bg-pastel-rose hover:bg-pink-200 font-semibold text-xs text-headingColor transition flex justify-between items-center px-4">
+                        <span>Book Romantic Setup</span> <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </button>
+                </div>
+
+                <!-- Service 3: Baby Shower & Welcome Baby -->
+                <div class="bg-white rounded-2xl p-6 border border-pastel-champagneGold/30 shadow-card hover:shadow-hover transition duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-pastel-lavender flex items-center justify-center text-2xl text-purple-600 mb-6 group-hover:scale-110 transition-transform">
+                            🍼
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-headingColor mb-3">Baby Shower & Welcome</h3>
+                        <p class="text-charcoal/70 text-sm mb-4">Soft pastel pink, blue, and neutral arrangements to welcome the little bundle of joy.</p>
+                        <ul class="space-y-2 text-xs text-charcoal/80 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Godh Bharai / Baby Shower Stage</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Welcome Home Newborn Decor</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Gender Reveal Surprises</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Cute Mascot & Teddy Theme Arches</li>
+                        </ul>
+                    </div>
+                    <button onclick="openBookingModal('Baby Shower Decoration')" class="w-full py-2.5 rounded-xl bg-pastel-lavender hover:bg-pastel-lavenderDark font-semibold text-xs text-headingColor transition flex justify-between items-center px-4">
+                        <span>Book Baby Setup</span> <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </button>
+                </div>
+
+                <!-- Service 4: Wedding & Engagement -->
+                <div class="bg-white rounded-2xl p-6 border border-pastel-champagneGold/30 shadow-card hover:shadow-hover transition duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-pastel-champagne flex items-center justify-center text-2xl text-amber-600 mb-6 group-hover:scale-110 transition-transform">
+                            💍
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-headingColor mb-3">Wedding & Engagement</h3>
+                        <p class="text-charcoal/70 text-sm mb-4">Elegant ring ceremonies, Haldi/Mehndi decor, and grand banquet stage setups.</p>
+                        <ul class="space-y-2 text-xs text-charcoal/80 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Metallic Champagne & Floral Ring Arches</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Haldi & Sawan Festive Setups</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Engagement Entry Pathway Decor</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Stage Balloon & Flower Fusion</li>
+                        </ul>
+                    </div>
+                    <button onclick="openBookingModal('Wedding Decoration')" class="w-full py-2.5 rounded-xl bg-pastel-champagne hover:bg-amber-100 font-semibold text-xs text-headingColor transition flex justify-between items-center px-4">
+                        <span>Book Wedding Setup</span> <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </button>
+                </div>
+
+                <!-- Service 5: Party & Event Decoration -->
+                <div class="bg-white rounded-2xl p-6 border border-pastel-champagneGold/30 shadow-card hover:shadow-hover transition duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-pastel-mint flex items-center justify-center text-2xl text-emerald-600 mb-6 group-hover:scale-110 transition-transform">
+                            🎉
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-headingColor mb-3">Party & Corporate Events</h3>
+                        <p class="text-charcoal/70 text-sm mb-4">Store launches, corporate milestone celebrations, school events, and private parties.</p>
+                        <ul class="space-y-2 text-xs text-charcoal/80 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Grand Entrance Balloon Arches</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Brand Color Matched Balloon Pillars</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Metallic Balloon Walls</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Confetti Blast & Stage Backdrop</li>
+                        </ul>
+                    </div>
+                    <button onclick="openBookingModal('Party Event Decoration')" class="w-full py-2.5 rounded-xl bg-pastel-mint hover:bg-emerald-100 font-semibold text-xs text-headingColor transition flex justify-between items-center px-4">
+                        <span>Book Event Setup</span> <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </button>
+                </div>
+
+                <!-- Service 6: Custom Theme Decoration -->
+                <div class="bg-white rounded-2xl p-6 border border-pastel-champagneGold/30 shadow-card hover:shadow-hover transition duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-pastel-blue flex items-center justify-center text-2xl text-blue-600 mb-6 group-hover:scale-110 transition-transform">
+                            🎨
+                        </div>
+                        <h3 class="font-serif text-xl font-bold text-headingColor mb-3">Custom Theme Decoration</h3>
+                        <p class="text-charcoal/70 text-sm mb-4">Bring any imagination to life with personalized character cutouts, lights, and balloons.</p>
+                        <ul class="space-y-2 text-xs text-charcoal/80 mb-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> 3D Character Cutouts & Props</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Jungle, Barbie, Boss Baby & Space</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Customized Acrylic Name Flex</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-brandGold"></i> Matching Cake Table Styling</li>
+                        </ul>
+                    </div>
+                    <button onclick="openBookingModal('Custom Theme Decoration')" class="w-full py-2.5 rounded-xl bg-pastel-blue hover:bg-blue-100 font-semibold text-xs text-headingColor transition flex justify-between items-center px-4">
+                        <span>Explore Themes</span> <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. THEME DECORATION IN PATNA -->
+    <section id="themes" class="py-20 bg-gradient-to-b from-pastel-cream via-pastel-pink/30 to-pastel-cream border-t border-b border-pastel-champagneGold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+                <span class="text-brandGold font-semibold text-xs tracking-widest uppercase bg-pastel-champagne px-3.5 py-1.5 rounded-full border border-pastel-champagneGold/30">Popular Choices</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-headingColor">Trending Theme Decorations In Patna</h2>
+                <p class="text-charcoal/70 text-sm sm:text-base">Choose from Patna's favorite theme setups for unforgettable photos and magical moments.</p>
+            </div>
+
+            <!-- 10 Theme Cards Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+
+                <!-- Theme 1: Boss Baby (Using BALLON.jpg) -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm hover:shadow-md transition group">
+                    <div class="h-44 overflow-hidden relative">
+                        <img src="BALLON.jpg" alt="Boss Baby Birthday Theme" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x300/E3F2FD/2B2B2B?text=Boss+Baby+Theme'">
+                        <span class="absolute top-2 right-2 bg-blue-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">Top Rated</span>
+                    </div>
+                    <div class="p-4 text-center">
+                        <h4 class="font-bold text-sm text-headingColor">Boss Baby Theme</h4>
+                        <p class="text-[11px] text-gray-500 mt-1">Blue & White Pastel Backdrops</p>
+                    </div>
+                </div>
+
+                <!-- Theme 2: Black & Gold Ring (Using BALLON 3.webp) -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm hover:shadow-md transition group">
+                    <div class="h-44 overflow-hidden relative">
+                        <img src="BALLON 3.webp" alt="Black and Gold Ring Theme" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x300/FAF3E0/2B2B2B?text=Gold+Ring+Arch'">
+                        <span class="absolute top-2 right-2 bg-amber-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">Elegant</span>
+                    </div>
+                    <div class="p-4 text-center">
+                        <h4 class="font-bold text-sm text-headingColor">Black & Gold Ring</h4>
+                        <p class="text-[11px] text-gray-500 mt-1">Neon "Happy Birthday" Arch</p>
+                    </div>
+                </div>
+
+                <!-- Theme 3: Barbie / Princess (Using BALLON 5.webp) -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm hover:shadow-md transition group">
+                    <div class="h-44 overflow-hidden relative">
+                        <img src="BALLON 5.webp" alt="Barbie Princess Stage Setup" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x300/FFF0F5/2B2B2B?text=Barbie+Princess'">
+                        <span class="absolute top-2 right-2 bg-pink-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">Popular</span>
+                    </div>
+                    <div class="p-4 text-center">
+                        <h4 class="font-bold text-sm text-headingColor">Barbie & Princess</h4>
+                        <p class="text-[11px] text-gray-500 mt-1">Pink & Lavender Stage Setup</p>
+                    </div>
+                </div>
+
+                <!-- Theme 4: Jungle & Safari Entrance (Using BALLON 8.webp) -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm hover:shadow-md transition group">
+                    <div class="h-44 overflow-hidden relative">
+                        <img src="BALLON 8.webp" alt="Jungle Safari Arch Setup" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x300/E8F5E9/2B2B2B?text=Jungle+Safari'">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h4 class="font-bold text-sm text-headingColor">Jungle & Safari</h4>
+                        <p class="text-[11px] text-gray-500 mt-1">Animal Cutouts & Arch</p>
+                    </div>
+                </div>
+
+                <!-- Theme 5: Floral & Sawan Theme (Using BALLON 6.webp) -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm hover:shadow-md transition group">
+                    <div class="h-44 overflow-hidden relative">
+                        <img src="BALLON 6.webp" alt="Green Balloon Arch Floral Setup" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x300/E8F5E9/2B2B2B?text=Floral+Sawan'">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h4 class="font-bold text-sm text-headingColor">Sawan & Greenery</h4>
+                        <p class="text-[11px] text-gray-500 mt-1">Organic Floral Balloon Garland</p>
+                    </div>
+                </div>
+
+                <!-- Theme 6: Grand Birthday Banquet (Using BALLON 7.webp) -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm hover:shadow-md transition group">
+                    <div class="h-44 overflow-hidden relative">
+                        <img src="BALLON 7.webp" alt="Grand Birthday Banquet Stage Patna" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x300/FAF3E0/2B2B2B?text=Banquet+Stage'">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h4 class="font-bold text-sm text-headingColor">Grand Metallic Stage</h4>
+                        <p class="text-[11px] text-gray-500 mt-1">Custom Name Board Setup</p>
+                    </div>
+                </div>
+
+                <!-- Theme 7: Pastel Pink & Lavender (Using BALLON4.webp) -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm hover:shadow-md transition group">
+                    <div class="h-44 overflow-hidden relative">
+                        <img src="BALLON4.webp" alt="Pastel Pink Arch Cake Table" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/400x300/F3E5F5/2B2B2B?text=Pastel+Arch'">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h4 class="font-bold text-sm text-headingColor">Pastel Dream</h4>
+                        <p class="text-[11px] text-gray-500 mt-1">Soft Pink & Lavender Arch</p>
+                    </div>
+                </div>
+
+                <!-- Theme 8: Superhero Inspired -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm hover:shadow-md transition group">
+                    <div class="h-44 overflow-hidden relative bg-blue-50 flex items-center justify-center">
+                        <span class="text-5xl">🦸‍♂️</span>
+                    </div>
+                    <div class="p-4 text-center">
+                        <h4 class="font-bold text-sm text-headingColor">Superhero Theme</h4>
+                        <p class="text-[11px] text-gray-500 mt-1">Marvel & DC Cutouts</p>
+                    </div>
+                </div>
+
+                <!-- Theme 9: Space & Astronaut -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm hover:shadow-md transition group">
+                    <div class="h-44 overflow-hidden relative bg-slate-100 flex items-center justify-center">
+                        <span class="text-5xl">🚀</span>
+                    </div>
+                    <div class="p-4 text-center">
+                        <h4 class="font-bold text-sm text-headingColor">Space Explorer</h4>
+                        <p class="text-[11px] text-gray-500 mt-1">Rockets, Stars & Planets</p>
+                    </div>
+                </div>
+
+                <!-- Theme 10: Rainbow Pastel -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm hover:shadow-md transition group">
+                    <div class="h-44 overflow-hidden relative bg-pink-50 flex items-center justify-center">
+                        <span class="text-5xl">🌈</span>
+                    </div>
+                    <div class="p-4 text-center">
+                        <h4 class="font-bold text-sm text-headingColor">Rainbow Pastel</h4>
+                        <p class="text-[11px] text-gray-500 mt-1">Multi-color Macaron Balloons</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-12 text-center">
+                <button onclick="openBookingModal('Custom Theme Request')" class="gold-button font-semibold px-8 py-3.5 rounded-full text-sm shadow-md">
+                    <i class="fa-solid fa-paintbrush mr-2"></i> Request Your Unique Custom Theme
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. WHAT CAN BE CUSTOMIZED? & LIVE CUSTOMIZER TOOL -->
+    <section id="customization" class="py-20 bg-pastel-cream">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+                <span class="text-brandGold font-semibold text-xs tracking-widest uppercase bg-pastel-champagne px-3.5 py-1.5 rounded-full border border-pastel-champagneGold/30">Total Personalization</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-headingColor">What Can Be Customized In Your Setup?</h2>
+                <p class="text-charcoal/70 text-sm sm:text-base">We customize every single detail according to your venue size, favorite colors, and budget.</p>
+            </div>
+
+            <!-- 12 Customization Options Grid -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-16">
+                <div class="bg-white p-4 rounded-xl border border-pastel-champagneGold/30 text-center shadow-sm hover:border-brandGold transition">
+                    <div class="text-2xl mb-2">🎨</div>
+                    <p class="font-semibold text-xs text-headingColor">Balloon Colours</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-pastel-champagneGold/30 text-center shadow-sm hover:border-brandGold transition">
+                    <div class="text-2xl mb-2">🎈</div>
+                    <p class="font-semibold text-xs text-headingColor">Arrangements</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-pastel-champagneGold/30 text-center shadow-sm hover:border-brandGold transition">
+                    <div class="text-2xl mb-2">🖼️</div>
+                    <p class="font-semibold text-xs text-headingColor">Backdrop Board</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-pastel-champagneGold/30 text-center shadow-sm hover:border-brandGold transition">
+                    <div class="text-2xl mb-2">✨</div>
+                    <p class="font-semibold text-xs text-headingColor">Theme Palette</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-pastel-champagneGold/30 text-center shadow-sm hover:border-brandGold transition">
+                    <div class="text-2xl mb-2">🔤</div>
+                    <p class="font-semibold text-xs text-headingColor">Name Foil Letters</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-pastel-champagneGold/30 text-center shadow-sm hover:border-brandGold transition">
+                    <div class="text-2xl mb-2">🔢</div>
+                    <p class="font-semibold text-xs text-headingColor">Number Balloons</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-pastel-champagneGold/30 text-center shadow-sm hover:border-brandGold transition">
+                    <div class="text-2xl mb-2">🚪</div>
+                    <p class="font-semibold text-xs text-headingColor">Welcome Entrance</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-pastel-champagneGold/30 text-center shadow-sm hover:border-brandGold transition">
+                    <div class="text-2xl mb-2">📸</div>
+                    <p class="font-semibold text-xs text-headingColor">Photo Area Arch</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-pastel-champagneGold/30 text-center shadow-sm hover:border-brandGold transition">
+                    <div class="text-2xl mb-2">🎂</div>
+                    <p class="font-semibold text-xs text-headingColor">Cake Table Decor</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-pastel-champagneGold/30 text-center shadow-sm hover:border-brandGold transition">
+                    <div class="text-2xl mb-2">💡</div>
+                    <p class="font-semibold text-xs text-headingColor">Neon & Fairylights</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-pastel-champagneGold/30 text-center shadow-sm hover:border-brandGold transition">
+                    <div class="text-2xl mb-2">🏛️</div>
+                    <p class="font-semibold text-xs text-headingColor">Venue Layout</p>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-pastel-champagneGold/30 text-center shadow-sm hover:border-brandGold transition">
+                    <div class="text-2xl mb-2">💌</div>
+                    <p class="font-semibold text-xs text-headingColor">Personal Message</p>
+                </div>
+            </div>
+
+            <!-- LIVE INTERACTIVE SETUP CUSTOMIZER WIDGET -->
+            <div class="bg-white rounded-3xl p-6 sm:p-8 border border-pastel-champagneGold/40 shadow-xl max-w-4xl mx-auto">
+                <div class="text-center mb-6">
+                    <span class="text-xs font-bold text-brandGold uppercase tracking-wider"><i class="fa-solid fa-sliders"></i> Interactive Feature</span>
+                    <h3 class="font-serif text-2xl font-bold text-headingColor">Preview Your Decoration Setup</h3>
+                    <p class="text-xs text-gray-500">Select options to customize your live preview mockup.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <!-- Controls -->
+                    <div class="space-y-4 text-xs">
+                        <div>
+                            <label class="font-bold text-headingColor block mb-1">1. Primary Balloon Color:</label>
+                            <div class="flex gap-2">
+                                <button onclick="setCustomizerColor('#F7D6E0', 'Pastel Pink')" class="w-8 h-8 rounded-full bg-[#F7D6E0] border-2 border-gray-300 focus:scale-110 transition"></button>
+                                <button onclick="setCustomizerColor('#E3F2FD', 'Pastel Blue')" class="w-8 h-8 rounded-full bg-[#E3F2FD] border-2 border-gray-300 focus:scale-110 transition"></button>
+                                <button onclick="setCustomizerColor('#FAF3E0', 'Champagne Gold')" class="w-8 h-8 rounded-full bg-[#FAF3E0] border-2 border-gray-300 focus:scale-110 transition"></button>
+                                <button onclick="setCustomizerColor('#E1BEE7', 'Lavender')" class="w-8 h-8 rounded-full bg-[#E1BEE7] border-2 border-gray-300 focus:scale-110 transition"></button>
+                                <button onclick="setCustomizerColor('#E8F5E9', 'Pastel Mint')" class="w-8 h-8 rounded-full bg-[#E8F5E9] border-2 border-gray-300 focus:scale-110 transition"></button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="font-bold text-headingColor block mb-1">2. Backdrop Type:</label>
+                            <select id="backdropSelect" onchange="updateCustomizer()" class="w-full p-2.5 rounded-xl border border-gray-200 bg-pastel-cream text-xs focus:outline-none focus:border-brandGold">
+                                <option value="Circular Ring Arch">Circular Ring Arch with LED</option>
+                                <option value="Rectangle Curtain Flex">Rectangle Curtain Flex Backdrop</option>
+                                <option value="Organic Garland Arch">Organic Garland Entrance Arch</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="font-bold text-headingColor block mb-1">3. Name / Message on Board:</label>
+                            <input type="text" id="customNameInput" placeholder="e.g., Happy Birthday Aarav" onkeyup="updateCustomizer()" class="w-full p-2.5 rounded-xl border border-gray-200 bg-pastel-cream text-xs focus:outline-none focus:border-brandGold">
+                        </div>
+
+                        <button onclick="bookCustomizedDesign()" class="gold-button font-bold w-full py-3 rounded-xl shadow-md text-xs mt-2">
+                            <i class="fa-brands fa-whatsapp"></i> Send This Custom Setup to WhatsApp
+                        </button>
+                    </div>
+
+                    <!-- Visual Preview Window -->
+                    <div class="bg-pastel-cream p-6 rounded-2xl border border-pastel-champagneGold/30 flex flex-col items-center justify-center min-h-[260px] relative overflow-hidden" id="customizerPreviewBox">
+                        <div class="w-48 h-48 rounded-full border-8 border-dashed border-pastel-champagneGold/60 flex flex-col items-center justify-center text-center p-4 shadow-inner relative transition-colors duration-500" id="customizerCircle">
+                            <span class="text-3xl mb-1">🎈</span>
+                            <span class="font-serif font-bold text-headingColor text-sm" id="previewTextDisplay">Happy Birthday</span>
+                            <span class="text-[10px] text-brandGold font-semibold mt-1" id="previewColorDisplay">Pastel Pink Theme</span>
+                            <span class="text-[9px] text-gray-500" id="previewArchDisplay">Circular Ring Arch</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. GALLERY -->
+    <section id="gallery" class="py-20 bg-gradient-to-b from-pastel-cream to-white border-t border-b border-pastel-champagneGold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-10 space-y-3">
+                <span class="text-brandGold font-semibold text-xs tracking-widest uppercase bg-pastel-champagne px-3.5 py-1.5 rounded-full border border-pastel-champagneGold/30">Our Portfolio</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-headingColor">Photo Gallery Of Recent Events</h2>
+                <p class="text-charcoal/70 text-sm">Real pictures from our recent balloon decoration work across Patna.</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="flex flex-wrap justify-center gap-2 mb-10 text-xs font-semibold">
+                <button onclick="filterGallery('all')" class="gallery-filter-btn active bg-brandGold text-white px-4 py-2 rounded-full transition">ALL</button>
+                <button onclick="filterGallery('birthday')" class="gallery-filter-btn bg-white hover:bg-pastel-pink text-charcoal border border-pastel-champagneGold/50 px-4 py-2 rounded-full transition">BIRTHDAY</button>
+                <button onclick="filterGallery('romantic')" class="gallery-filter-btn bg-white hover:bg-pastel-pink text-charcoal border border-pastel-champagneGold/50 px-4 py-2 rounded-full transition">ROMANTIC</button>
+                <button onclick="filterGallery('baby')" class="gallery-filter-btn bg-white hover:bg-pastel-pink text-charcoal border border-pastel-champagneGold/50 px-4 py-2 rounded-full transition">BABY CELEBRATIONS</button>
+                <button onclick="filterGallery('wedding')" class="gallery-filter-btn bg-white hover:bg-pastel-pink text-charcoal border border-pastel-champagneGold/50 px-4 py-2 rounded-full transition">WEDDING</button>
+                <button onclick="filterGallery('themes')" class="gallery-filter-btn bg-white hover:bg-pastel-pink text-charcoal border border-pastel-champagneGold/50 px-4 py-2 rounded-full transition">THEMES</button>
+            </div>
+
+            <!-- Gallery Grid with Image Assets -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="galleryGrid">
+                
+                <!-- Image Item 1 -->
+                <div class="gallery-item birthday themes bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm img-zoom-container cursor-pointer" onclick="openLightbox('BALLON.jpg', 'Boss Baby Birthday Setup - Patna')">
+                    <img src="BALLON.jpg" alt="Boss Baby Birthday Decoration" class="w-full h-56 object-cover" onerror="this.src='https://placehold.co/500x400/FFF0F5/2B2B2B?text=Boss+Baby+Setup'">
+                    <div class="p-3">
+                        <p class="font-bold text-xs text-headingColor">Boss Baby Birthday Setup</p>
+                        <p class="text-[10px] text-brandGold">Birthday & Themes</p>
+                    </div>
+                </div>
+
+                <!-- Image Item 2 -->
+                <div class="gallery-item birthday wedding romantic bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm img-zoom-container cursor-pointer" onclick="openLightbox('BALLON 3.webp', 'Gold Ring Arch Neon Happy Birthday')">
+                    <img src="BALLON 3.webp" alt="Black & Gold Ring Arch" class="w-full h-56 object-cover" onerror="this.src='https://placehold.co/500x400/FAF3E0/2B2B2B?text=Ring+Arch'">
+                    <div class="p-3">
+                        <p class="font-bold text-xs text-headingColor">Black & Gold Ring Arch</p>
+                        <p class="text-[10px] text-brandGold">Birthday & Romantic</p>
+                    </div>
+                </div>
+
+                <!-- Image Item 3 -->
+                <div class="gallery-item birthday themes baby bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm img-zoom-container cursor-pointer" onclick="openLightbox('BALLON 5.webp', 'Barbie & Princess Theme Birthday')">
+                    <img src="BALLON 5.webp" alt="Barbie Pink Stage Decor" class="w-full h-56 object-cover" onerror="this.src='https://placehold.co/500x400/FFF0F5/2B2B2B?text=Barbie+Stage'">
+                    <div class="p-3">
+                        <p class="font-bold text-xs text-headingColor">Barbie & Princess Stage</p>
+                        <p class="text-[10px] text-brandGold">Birthday & Themes</p>
+                    </div>
+                </div>
+
+                <!-- Image Item 4 -->
+                <div class="gallery-item wedding themes bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm img-zoom-container cursor-pointer" onclick="openLightbox('BALLON 6.webp', 'Sawan & Floral Green Balloon Arch')">
+                    <img src="BALLON 6.webp" alt="Green Balloon Arch Setup" class="w-full h-56 object-cover" onerror="this.src='https://placehold.co/500x400/E8F5E9/2B2B2B?text=Floral+Garland'">
+                    <div class="p-3">
+                        <p class="font-bold text-xs text-headingColor">Green Organic Garland Arch</p>
+                        <p class="text-[10px] text-brandGold">Wedding & Themes</p>
+                    </div>
+                </div>
+
+                <!-- Image Item 5 -->
+                <div class="gallery-item birthday wedding bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm img-zoom-container cursor-pointer" onclick="openLightbox('BALLON 7.webp', 'Grand Birthday Stage Shivya')">
+                    <img src="BALLON 7.webp" alt="Grand Banquet Birthday Setup" class="w-full h-56 object-cover" onerror="this.src='https://placehold.co/500x400/FAF3E0/2B2B2B?text=Banquet+Stage'">
+                    <div class="p-3">
+                        <p class="font-bold text-xs text-headingColor">Grand Metallic Banquet Decor</p>
+                        <p class="text-[10px] text-brandGold">Birthday & Stage</p>
+                    </div>
+                </div>
+
+                <!-- Image Item 6 -->
+                <div class="gallery-item themes baby birthday bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm img-zoom-container cursor-pointer" onclick="openLightbox('BALLON 8.webp', 'Jungle & Safari Entrance Arch')">
+                    <img src="BALLON 8.webp" alt="Jungle Safari Arch" class="w-full h-56 object-cover" onerror="this.src='https://placehold.co/500x400/E8F5E9/2B2B2B?text=Jungle+Arch'">
+                    <div class="p-3">
+                        <p class="font-bold text-xs text-headingColor">Jungle Safari Entrance Arch</p>
+                        <p class="text-[10px] text-brandGold">Themes & Kids</p>
+                    </div>
+                </div>
+
+                <!-- Image Item 7 -->
+                <div class="gallery-item birthday baby romantic bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm img-zoom-container cursor-pointer" onclick="openLightbox('BALLON4.webp', 'Pastel Pink & Lavender Arch Setup')">
+                    <img src="BALLON4.webp" alt="Pastel Balloon Arch Table Setup" class="w-full h-56 object-cover" onerror="this.src='https://placehold.co/500x400/F3E5F5/2B2B2B?text=Pastel+Arch'">
+                    <div class="p-3">
+                        <p class="font-bold text-xs text-headingColor">Pastel Pink & Lavender Arch</p>
+                        <p class="text-[10px] text-brandGold">Baby & Birthday</p>
+                    </div>
+                </div>
+
+                <!-- Image Item 8 -->
+                <div class="gallery-item romantic wedding bg-white rounded-2xl overflow-hidden border border-pastel-champagneGold/30 shadow-sm img-zoom-container cursor-pointer" onclick="openLightbox('https://placehold.co/800x600/FFF0F5/2B2B2B?text=Romantic+Canopy+Room+Setup', 'Romantic Room Canopy Surprise')">
+                    <img src="https://placehold.co/500x400/FFF0F5/2B2B2B?text=Romantic+Room+Setup" alt="Romantic Canopy Surprise" class="w-full h-56 object-cover">
+                    <div class="p-3">
+                        <p class="font-bold text-xs text-headingColor">Romantic Room Canopy Decor</p>
+                        <p class="text-[10px] text-brandGold">Romantic Surprise</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FULLSCREEN LIGHTBOX MODAL -->
+    <div id="lightboxModal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white text-3xl hover:text-brandGold transition"><i class="fa-solid fa-xmark"></i></button>
+        <div class="max-w-4xl w-full bg-white rounded-3xl overflow-hidden shadow-2xl">
+            <img id="lightboxImage" src="" alt="Full view" class="w-full max-h-[75vh] object-contain bg-black">
+            <div class="p-4 bg-pastel-cream flex justify-between items-center">
+                <div>
+                    <h4 id="lightboxTitle" class="font-serif font-bold text-lg text-headingColor">Image Title</h4>
+                    <p class="text-xs text-gray-500">Patna Balloon Decoration</p>
+                </div>
+                <button onclick="bookLightboxImage()" class="gold-button px-5 py-2 rounded-full font-bold text-xs">
+                    <i class="fa-brands fa-whatsapp"></i> Book This Setup
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7. ABOUT US -->
+    <section id="about" class="py-20 bg-pastel-cream">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-brandGold font-semibold text-xs tracking-widest uppercase bg-pastel-champagne px-3.5 py-1.5 rounded-full border border-pastel-champagneGold/30">Who We Are</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-headingColor leading-tight">Creating Magical Moments Across Patna Since 2018</h2>
+                    <p class="text-charcoal/80 text-sm sm:text-base leading-relaxed">
+                        At <strong class="text-headingColor">Patna Balloon Decoration</strong>, we believe every milestone in life deserves to be celebrated with joy and elegance. From grand birthday backdrops and delicate baby shower arches to romantic anniversary room setups, our team of passionate decorators brings creativity and craftsmanship to your doorstep.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start gap-4 p-4 rounded-2xl bg-white border border-pastel-champagneGold/30">
+                            <div class="w-10 h-10 rounded-full bg-pastel-pink flex items-center justify-center text-brandGold font-bold shrink-0">01</div>
+                            <div>
+                                <h4 class="font-bold text-sm text-headingColor">What We Do</h4>
+                                <p class="text-xs text-charcoal/70">Custom balloon styling, character cutouts, LED neon signage, organic balloon garlands, and full venue stage decorations.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-2xl bg-white border border-pastel-champagneGold/30">
+                            <div class="w-10 h-10 rounded-full bg-pastel-lavender flex items-center justify-center text-brandGold font-bold shrink-0">02</div>
+                            <div>
+                                <h4 class="font-bold text-sm text-headingColor">Our Approach</h4>
+                                <p class="text-xs text-charcoal/70">Punctual execution, eco-friendly high-grade balloons, transparent fixed pricing, and 100% custom-tailored theme designs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- What We Decorate Icon Grid -->
+                <div class="lg:col-span-6 bg-white p-8 rounded-3xl border border-pastel-champagneGold/40 shadow-lg">
+                    <h3 class="font-serif text-xl font-bold text-headingColor mb-6 text-center">Venues & Spaces We Decorate</h3>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 text-center">
+                        <div class="p-4 rounded-2xl bg-pastel-cream border border-pastel-champagneGold/20">
+                            <div class="text-3xl mb-2">🏠</div>
+                            <p class="font-bold text-xs text-headingColor">Home & Living Rooms</p>
+                        </div>
+                        <div class="p-4 rounded-2xl bg-pastel-cream border border-pastel-champagneGold/20">
+                            <div class="text-3xl mb-2">🏨</div>
+                            <p class="font-bold text-xs text-headingColor">Banquet Halls</p>
+                        </div>
+                        <div class="p-4 rounded-2xl bg-pastel-cream border border-pastel-champagneGold/20">
+                            <div class="text-3xl mb-2">🌿</div>
+                            <p class="font-bold text-xs text-headingColor">Terrace & Lawns</p>
+                        </div>
+                        <div class="p-4 rounded-2xl bg-pastel-cream border border-pastel-champagneGold/20">
+                            <div class="text-3xl mb-2">🛏️</div>
+                            <p class="font-bold text-xs text-headingColor">Hotel Bedrooms</p>
+                        </div>
+                        <div class="p-4 rounded-2xl bg-pastel-cream border border-pastel-champagneGold/20">
+                            <div class="text-3xl mb-2">🏬</div>
+                            <p class="font-bold text-xs text-headingColor">Restaurants & Cafes</p>
+                        </div>
+                        <div class="p-4 rounded-2xl bg-pastel-cream border border-pastel-champagneGold/20">
+                            <div class="text-3xl mb-2">🏢</div>
+                            <p class="font-bold text-xs text-headingColor">Offices & Stores</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. WHY CHOOSE US -->
+    <section class="py-20 bg-gradient-to-b from-white to-pastel-cream border-t border-b border-pastel-champagneGold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+                <span class="text-brandGold font-semibold text-xs tracking-widest uppercase bg-pastel-champagne px-3.5 py-1.5 rounded-full border border-pastel-champagneGold/30">The Patna Balloon Edge</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-headingColor">Why Customers Love Patna Balloon Decoration</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="p-6 bg-white rounded-2xl border-2 border-pastel-pinkDark/40 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 rounded-xl bg-pastel-pink flex items-center justify-center text-xl text-pink-600 mb-4">✨</div>
+                    <h4 class="font-bold text-base text-headingColor mb-2">Premium Quality Balloons</h4>
+                    <p class="text-xs text-charcoal/70">We use durable, shiny metallic and pastel latex balloons that stay vibrant throughout your entire event without deflating.</p>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl border-2 border-pastel-lavenderDark/40 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 rounded-xl bg-pastel-lavender flex items-center justify-center text-xl text-purple-600 mb-4">⏰</div>
+                    <h4 class="font-bold text-base text-headingColor mb-2">Punctual & On-Time Setup</h4>
+                    <p class="text-xs text-charcoal/70">Our decoration artists arrive well in advance to ensure everything is perfect before your guests arrive.</p>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl border-2 border-pastel-champagneGold/40 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 rounded-xl bg-pastel-champagne flex items-center justify-center text-xl text-amber-600 mb-4">💵</div>
+                    <h4 class="font-bold text-base text-headingColor mb-2">Affordable & Clear Pricing</h4>
+                    <p class="text-xs text-charcoal/70">No hidden fees or unexpected last-minute costs. Clear upfront packages for all budgets across Patna.</p>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl border-2 border-pastel-champagneGold/40 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 rounded-xl bg-pastel-mint flex items-center justify-center text-xl text-emerald-600 mb-4">🎨</div>
+                    <h4 class="font-bold text-base text-headingColor mb-2">100% Theme Customization</h4>
+                    <p class="text-xs text-charcoal/70">You show us any photo from Instagram or Pinterest, and we will replicate or customize it according to your venue.</p>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl border-2 border-pastel-pinkDark/40 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 rounded-xl bg-pastel-blue flex items-center justify-center text-xl text-blue-600 mb-4">📍</div>
+                    <h4 class="font-bold text-base text-headingColor mb-2">All Patna Locations Covered</h4>
+                    <p class="text-xs text-charcoal/70">From Danapur and Rajeev Nagar to Kankarbagh and City Area, our team reaches every corner of Patna.</p>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl border-2 border-pastel-lavenderDark/40 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 rounded-xl bg-pastel-rose flex items-center justify-center text-xl text-rose-600 mb-4">💬</div>
+                    <h4 class="font-bold text-base text-headingColor mb-2">24/7 WhatsApp Support</h4>
+                    <p class="text-xs text-charcoal/70">Instant response and photo sharing on WhatsApp (9523051895) for quick planning and fast bookings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. HOW IT WORKS -->
+    <section class="py-20 bg-pastel-cream">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+                <span class="text-brandGold font-semibold text-xs tracking-widest uppercase bg-pastel-champagne px-3.5 py-1.5 rounded-full border border-pastel-champagneGold/30">Simple Booking</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-headingColor">How It Works (4 Easy Steps)</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-2xl border border-pastel-champagneGold/30 text-center relative">
+                    <span class="text-4xl font-serif font-extrabold text-pastel-pinkDark block mb-2">01</span>
+                    <h4 class="font-bold text-sm text-headingColor mb-1">Choose Occasion</h4>
+                    <p class="text-xs text-gray-500">Select whether it's a Birthday, Anniversary, Baby Shower, or Wedding.</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl border border-pastel-champagneGold/30 text-center relative">
+                    <span class="text-4xl font-serif font-extrabold text-pastel-champagneGold block mb-2">02</span>
+                    <h4 class="font-bold text-sm text-headingColor mb-1">Select Theme & Colors</h4>
+                    <p class="text-xs text-gray-500">Pick your favorite color palette or send us your custom reference photo.</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl border border-pastel-champagneGold/30 text-center relative">
+                    <span class="text-4xl font-serif font-extrabold text-pastel-lavenderDark block mb-2">03</span>
+                    <h4 class="font-bold text-sm text-headingColor mb-1">Confirm Date & Venue</h4>
+                    <p class="text-xs text-gray-500">Share your event location in Patna and preferred slot timing.</p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl border border-pastel-champagneGold/30 text-center relative">
+                    <span class="text-4xl font-serif font-extrabold text-emerald-300 block mb-2">04</span>
+                    <h4 class="font-bold text-sm text-headingColor mb-1">We Decorate!</h4>
+                    <p class="text-xs text-gray-500">Sit back and relax as our team sets up your magical backdrop on time!</p>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <button onclick="openBookingModal('How It Works Step')" class="gold-button font-bold px-8 py-4 rounded-full text-sm shadow-lg">
+                    Start Your Event Booking Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. SERVICE AREAS IN PATNA -->
+    <section id="areas" class="py-20 bg-gradient-to-b from-white to-pastel-cream border-t border-b border-pastel-champagneGold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+                <span class="text-brandGold font-semibold text-xs tracking-widest uppercase bg-pastel-champagne px-3.5 py-1.5 rounded-full border border-pastel-champagneGold/30">Local Coverage</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-headingColor">Service Areas In Patna</h2>
+                <p class="text-charcoal/70 text-sm">We provide prompt home and venue balloon decoration services across all prime localities in Patna.</p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 text-center font-medium text-xs">
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Rajeev Nagar</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Danapur</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Rajbansi Nagar</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Shivpuri</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Indrapuri</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Buddha Colony</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Kidwaipuri</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Jagdeo Path</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Digha Ghat</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Phulwari Sharif</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Chitkohra</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Nasriganj</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Kankarbagh</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Boring Road</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Bailey Road</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Patliputra Colony</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> Anisabad</div>
+                <div class="bg-white p-3 rounded-xl border border-pastel-champagneGold/30 text-headingColor hover:border-brandGold transition shadow-sm"><i class="fa-solid fa-location-dot text-brandGold mr-1.5"></i> + Nearby Areas</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. BOOKING / ENQUIRY SECTION -->
+    <section id="contact" class="py-20 bg-pastel-cream relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <!-- Booking Form Column -->
+                <div class="lg:col-span-7 bg-white p-8 sm:p-10 rounded-3xl border border-pastel-champagneGold/40 shadow-xl">
+                    <div class="mb-8">
+                        <span class="text-brandGold font-semibold text-xs tracking-widest uppercase bg-pastel-champagne px-3.5 py-1.5 rounded-full border border-pastel-champagneGold/30">Get A Quick Quote</span>
+                        <h3 class="font-serif text-2xl sm:text-3xl font-bold text-headingColor mt-2">Book Your Celebration Setup</h3>
+                        <p class="text-xs text-gray-500 mt-1">Fill out the form below or chat on WhatsApp for instant rates.</p>
+                    </div>
+
+                    <form id="enquiryForm" onsubmit="handleFormSubmit(event)" class="space-y-4">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-bold text-headingColor mb-1">Your Name *</label>
+                                <input type="text" id="formName" required placeholder="e.g., Anjali Sharma" class="w-full p-3 rounded-xl border border-gray-200 bg-pastel-cream text-xs focus:outline-none focus:border-brandGold">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-headingColor mb-1">Phone Number *</label>
+                                <input type="tel" id="formPhone" required placeholder="e.g., 9523051895" class="w-full p-3 rounded-xl border border-gray-200 bg-pastel-cream text-xs focus:outline-none focus:border-brandGold">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-bold text-headingColor mb-1">Occasion Type *</label>
+                                <select id="formOccasion" class="w-full p-3 rounded-xl border border-gray-200 bg-pastel-cream text-xs focus:outline-none focus:border-brandGold">
+                                    <option>Birthday Party</option>
+                                    <option>Anniversary / Romantic Surprise</option>
+                                    <option>Baby Shower / Welcome Baby</option>
+                                    <option>Wedding / Engagement</option>
+                                    <option>Corporate / Store Launch</option>
+                                    <option>Custom Theme Setup</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-headingColor mb-1">Preferred Date</label>
+                                <input type="date" id="formDate" class="w-full p-3 rounded-xl border border-gray-200 bg-pastel-cream text-xs focus:outline-none focus:border-brandGold">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-bold text-headingColor mb-1">Patna Venue / Area</label>
+                                <input type="text" id="formArea" placeholder="e.g., Rajeev Nagar, Patna" class="w-full p-3 rounded-xl border border-gray-200 bg-pastel-cream text-xs focus:outline-none focus:border-brandGold">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-headingColor mb-1">Color / Theme Preference</label>
+                                <input type="text" id="formTheme" placeholder="e.g., Pastel Pink & Gold" class="w-full p-3 rounded-xl border border-gray-200 bg-pastel-cream text-xs focus:outline-none focus:border-brandGold">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-headingColor mb-1">Special Requirements or Message</label>
+                            <textarea id="formMessage" rows="3" placeholder="Tell us about special cutouts, lights, or specific ideas you have..." class="w-full p-3 rounded-xl border border-gray-200 bg-pastel-cream text-xs focus:outline-none focus:border-brandGold"></textarea>
+                        </div>
+
+                        <button type="submit" class="gold-button font-bold w-full py-4 rounded-xl text-sm shadow-md hover:shadow-lg">
+                            <i class="fa-brands fa-whatsapp text-lg mr-2"></i> Send Booking Request via WhatsApp
+                        </button>
+                    </form>
+                </div>
+
+                <!-- 12. CONTACT INFORMATION & MAP EMBED -->
+                <div class="lg:col-span-5 flex flex-col justify-between space-y-6">
+                    <div class="bg-white p-8 rounded-3xl border border-pastel-champagneGold/40 shadow-lg space-y-6">
+                        <h3 class="font-serif text-2xl font-bold text-headingColor">Contact Details</h3>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-pastel-pink flex items-center justify-center text-brandGold shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-xs text-headingColor uppercase tracking-wider">Business Address</h5>
+                                <p class="text-xs text-charcoal/80 leading-relaxed mt-1">
+                                    Ganga Vatika, Janta Rd, Jakkampur, Jai Prakash Nagar, Patna, Bihar – 800001
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-pastel-champagne flex items-center justify-center text-brandGold shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-xs text-headingColor uppercase tracking-wider">Phone / Direct Call</h5>
+                                <p class="text-sm font-bold text-headingColor mt-1">
+                                    <a href="tel:9523051895" class="hover:text-brandGold">9523051895</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-pastel-mint flex items-center justify-center text-emerald-600 shrink-0">
+                                <i class="fa-brands fa-whatsapp text-lg"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-xs text-headingColor uppercase tracking-wider">Instant WhatsApp Chat</h5>
+                                <p class="text-xs text-charcoal/80 mt-1">Available 24/7 for photo sharing & inquiries.</p>
+                                <a href="https://wa.me/919523051895" target="_blank" class="inline-block text-xs font-bold text-emerald-600 hover:underline mt-1">Chat Now: 9523051895 →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Google Map Embed Simulation -->
+                    <div class="bg-white p-4 rounded-3xl border border-pastel-champagneGold/40 shadow-lg relative overflow-hidden">
+                        <div class="rounded-2xl h-48 bg-slate-100 flex flex-col items-center justify-center relative overflow-hidden text-center p-4">
+                            <i class="fa-solid fa-map-location-dot text-4xl text-brandGold mb-2"></i>
+                            <p class="font-bold text-xs text-headingColor">Patna Balloon Decoration Studio</p>
+                            <p class="text-[10px] text-gray-500">Ganga Vatika, Jakkampur, Patna 800001</p>
+                            <a href="https://maps.google.com/?q=Ganga+Vatika,+Janta+Rd,+Jakkampur,+Patna" target="_blank" class="mt-3 bg-headingColor text-white text-[11px] font-semibold px-4 py-2 rounded-full hover:bg-brandGold transition">
+                                <i class="fa-solid fa-diamond-turn-right mr-1"></i> Get Directions
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 13. FINAL CTA & FOOTER -->
+    <div class="bg-gradient-to-r from-pastel-pink via-pastel-champagne to-pastel-lavender py-12 px-4 text-center border-t border-pastel-champagneGold/30">
+        <div class="max-w-4xl mx-auto space-y-4">
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-headingColor">Ready To Make Your Celebration Magical?</h3>
+            <p class="text-xs sm:text-sm text-charcoal/80">Call us or send a message on WhatsApp for instant theme consultation and package details!</p>
+            <div class="flex flex-wrap justify-center gap-4 pt-2">
+                <a href="tel:9523051895" class="bg-headingColor hover:bg-brandGold text-white font-bold px-8 py-3.5 rounded-full text-xs shadow-md transition">
+                    <i class="fa-solid fa-phone mr-2"></i> Call 9523051895
+                </a>
+                <a href="https://wa.me/919523051895" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-3.5 rounded-full text-xs shadow-md transition">
+                    <i class="fa-brands fa-whatsapp mr-2"></i> Chat On WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- RICH FOOTER -->
+    <footer class="bg-pastel-cream text-charcoal pt-16 pb-8 border-t border-pastel-champagneGold/30 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                
+                <!-- Footer Col 1 -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-2">
+                        <span class="text-2xl">🎈</span>
+                        <span class="font-serif font-bold text-lg text-headingColor">PATNA BALLOON DECORATION</span>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed">
+                        Turning Your Special Moments Into Beautiful Memories. Patna's trusted balloon decorator for birthdays, baby showers, romantic surprises, and wedding setups.
+                    </p>
+                    <div class="flex space-x-3 text-lg text-brandGold pt-2">
+                        <a href="#" class="w-8 h-8 rounded-full bg-white border border-pastel-champagneGold flex items-center justify-center hover:bg-brandGold hover:text-white transition"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-white border border-pastel-champagneGold flex items-center justify-center hover:bg-brandGold hover:text-white transition"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/919523051895" class="w-8 h-8 rounded-full bg-white border border-pastel-champagneGold flex items-center justify-center hover:bg-brandGold hover:text-white transition"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Footer Col 2 -->
+                <div>
+                    <h4 class="font-serif font-bold text-sm text-headingColor mb-4 uppercase tracking-wider">Quick Links</h4>
+                    <ul class="space-y-2.5 text-gray-600">
+                        <li><a href="#home" class="hover:text-brandGold transition">Home Page</a></li>
+                        <li><a href="#services" class="hover:text-brandGold transition">Decoration Services</a></li>
+                        <li><a href="#themes" class="hover:text-brandGold transition">Popular Themes</a></li>
+                        <li><a href="#customization" class="hover:text-brandGold transition">Live Setup Customizer</a></li>
+                        <li><a href="#gallery" class="hover:text-brandGold transition">Photo Gallery</a></li>
+                        <li><a href="#about" class="hover:text-brandGold transition">About Our Team</a></li>
+                        <li><a href="#contact" class="hover:text-brandGold transition">Contact & Booking</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Col 3 -->
+                <div>
+                    <h4 class="font-serif font-bold text-sm text-headingColor mb-4 uppercase tracking-wider">Popular Services</h4>
+                    <ul class="space-y-2.5 text-gray-600">
+                        <li><a href="#services" class="hover:text-brandGold transition">Kids Birthday Balloon Decor</a></li>
+                        <li><a href="#services" class="hover:text-brandGold transition">Romantic Room Surprise Patna</a></li>
+                        <li><a href="#services" class="hover:text-brandGold transition">Baby Shower / Godh Bharai Setup</a></li>
+                        <li><a href="#services" class="hover:text-brandGold transition">Wedding Ring Arch Decor</a></li>
+                        <li><a href="#services" class="hover:text-brandGold transition">Store Opening Balloon Arch</a></li>
+                        <li><a href="#services" class="hover:text-brandGold transition">Neon Light Birthday Backdrop</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Col 4 -->
+                <div>
+                    <h4 class="font-serif font-bold text-sm text-headingColor mb-4 uppercase tracking-wider">SEO Keywords / Locations</h4>
+                    <p class="text-[11px] text-gray-500 leading-relaxed mb-4">
+                        Balloon Decorators in Rajeev Nagar, Danapur Balloon Setup, Birthday Decorators Patna, Anniversary Room Decor Patna, Boss Baby Theme Patna, Metallic Balloon Arch, Welcome Baby Decorator Patna 800001.
+                    </p>
+                    <p class="text-xs font-bold text-headingColor">Phone: 9523051895</p>
+                </div>
+
+            </div>
+
+            <!-- Copyright Line -->
+            <div class="border-t border-pastel-champagneGold/30 pt-6 flex flex-col sm:flex-row justify-between items-center text-gray-500 text-[11px] gap-2">
+                <p>© 2026 PATNA BALLOON DECORATION. All Rights Reserved.</p>
+                <p class="font-medium text-brandGold">Website developed by Aditya</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- POPUP BOOKING MODAL -->
+    <div id="bookingModal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white max-w-md w-full rounded-3xl p-6 border border-pastel-champagneGold/50 shadow-2xl relative">
+            <button onclick="closeBookingModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 text-xl"><i class="fa-solid fa-xmark"></i></button>
+
+            <div class="text-center mb-4">
+                <span class="text-2xl">🎈</span>
+                <h4 class="font-serif font-bold text-xl text-headingColor" id="modalServiceTitle">Book Decoration</h4>
+                <p class="text-xs text-gray-500">Patna Balloon Decoration Quick Enquiry</p>
+            </div>
+
+            <div class="space-y-3 text-xs">
+                <div>
+                    <label class="font-bold text-headingColor block mb-1">Your Name</label>
+                    <input type="text" id="modalName" placeholder="Enter your name" class="w-full p-2.5 rounded-xl border border-gray-200 bg-pastel-cream focus:outline-none focus:border-brandGold">
+                </div>
+                <div>
+                    <label class="font-bold text-headingColor block mb-1">Phone Number</label>
+                    <input type="tel" id="modalPhone" placeholder="Enter phone number" class="w-full p-2.5 rounded-xl border border-gray-200 bg-pastel-cream focus:outline-none focus:border-brandGold">
+                </div>
+                <div>
+                    <label class="font-bold text-headingColor block mb-1">Event Date</label>
+                    <input type="date" id="modalDate" class="w-full p-2.5 rounded-xl border border-gray-200 bg-pastel-cream focus:outline-none focus:border-brandGold">
+                </div>
+                <div>
+                    <label class="font-bold text-headingColor block mb-1">Location in Patna</label>
+                    <input type="text" id="modalArea" placeholder="e.g. Danapur / Rajeev Nagar" class="w-full p-2.5 rounded-xl border border-gray-200 bg-pastel-cream focus:outline-none focus:border-brandGold">
+                </div>
+                <button onclick="submitModalBooking()" class="gold-button font-bold w-full py-3 rounded-xl shadow-md mt-2 text-xs">
+                    <i class="fa-brands fa-whatsapp text-sm mr-1.5"></i> Confirm & Send on WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // Mobile Navigation Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Gallery Filter Logic
+        function filterGallery(category) {
+            const items = document.querySelectorAll('.gallery-item');
+            const buttons = document.querySelectorAll('.gallery-filter-btn');
+
+            buttons.forEach(btn => {
+                btn.classList.remove('active', 'bg-brandGold', 'text-white');
+                btn.classList.add('bg-white', 'text-charcoal');
+            });
+
+            event.target.classList.add('active', 'bg-brandGold', 'text-white');
+
+            items.forEach(item => {
+                if (category === 'all' || item.classList.contains(category)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Fullscreen Lightbox
+        let currentLightboxSetup = '';
+        function openLightbox(imgSrc, title) {
+            currentLightboxSetup = title;
+            document.getElementById('lightboxImage').src = imgSrc;
+            document.getElementById('lightboxTitle').innerText = title;
+            document.getElementById('lightboxModal').classList.remove('hidden');
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightboxModal').classList.add('hidden');
+        }
+
+        function bookLightboxImage() {
+            const text = `Hello Patna Balloon Decoration, I am interested in booking this specific setup: ${currentLightboxSetup}`;
+            window.open(`https://wa.me/919523051895?text=${encodeURIComponent(text)}`, '_blank');
+        }
+
+        // Live Customizer Tool State
+        let customizerColor = 'Pastel Pink';
+
+        function setCustomizerColor(hexColor, colorName) {
+            customizerColor = colorName;
+            document.getElementById('customizerCircle').style.backgroundColor = hexColor;
+            document.getElementById('previewColorDisplay').innerText = `${colorName} Theme`;
+        }
+
+        function updateCustomizer() {
+            const nameInput = document.getElementById('customNameInput').value;
+            const backdropSelect = document.getElementById('backdropSelect').value;
+
+            document.getElementById('previewTextDisplay').innerText = nameInput ? nameInput : "Happy Birthday";
+            document.getElementById('previewArchDisplay').innerText = backdropSelect;
+        }
+
+        function bookCustomizedDesign() {
+            const name = document.getElementById('customNameInput').value || "Celebration";
+            const backdrop = document.getElementById('backdropSelect').value;
+            const msg = `Hello Patna Balloon Decoration, I created a custom setup on your website:\n- Color: ${customizerColor}\n- Backdrop: ${backdrop}\n- Name/Text: ${name}\nPlease share price estimate and availability.`;
+            window.open(`https://wa.me/919523051895?text=${encodeURIComponent(msg)}`, '_blank');
+        }
+
+        // Booking Modal Logic
+        let activeServiceTitle = "General Decoration";
+
+        function openBookingModal(serviceName) {
+            activeServiceTitle = serviceName;
+            document.getElementById('modalServiceTitle').innerText = `Book: ${serviceName}`;
+            document.getElementById('bookingModal').classList.remove('hidden');
+        }
+
+        function closeBookingModal() {
+            document.getElementById('bookingModal').classList.add('hidden');
+        }
+
+        function submitModalBooking() {
+            const name = document.getElementById('modalName').value;
+            const phone = document.getElementById('modalPhone').value;
+            const date = document.getElementById('modalDate').value;
+            const area = document.getElementById('modalArea').value;
+
+            if(!name || !phone) {
+                alert("Please fill in your Name and Phone Number.");
+                return;
+            }
+
+            const message = `Hello Patna Balloon Decoration, I want to book an event setup.\n\n- Occasion/Service: ${activeServiceTitle}\n- Name: ${name}\n- Phone: ${phone}\n- Date: ${date}\n- Location: ${area}, Patna`;
+            window.open(`https://wa.me/919523051895?text=${encodeURIComponent(message)}`, '_blank');
+            closeBookingModal();
+        }
+
+        // Main Contact Form Handler
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('formName').value;
+            const phone = document.getElementById('formPhone').value;
+            const occasion = document.getElementById('formOccasion').value;
+            const date = document.getElementById('formDate').value;
+            const area = document.getElementById('formArea').value;
+            const theme = document.getElementById('formTheme').value;
+            const userMsg = document.getElementById('formMessage').value;
+
+            const text = `Hello Patna Balloon Decoration, new booking inquiry from website:\n\n- Name: ${name}\n- Phone: ${phone}\n- Occasion: ${occasion}\n- Date: ${date}\n- Patna Area: ${area}\n- Theme Preference: ${theme}\n- Note: ${userMsg}`;
+
+            window.open(`https://wa.me/919523051895?text=${encodeURIComponent(text)}`, '_blank');
+        }
+    </script>
+</body>
+</html>
